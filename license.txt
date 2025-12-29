@@ -1,4 +1,4 @@
-Nightfall Knight © 2025 Presley
+Nightfall Ops © 2025 https://github.com/presley-bit
 All Rights Reserved.
 
 This software and its source code are the exclusive property of the author.
@@ -7,7 +7,7 @@ Permission is granted to view, study, and fork this repository on GitHub
 for personal and educational purposes only.
 
 Forking is permitted provided that:
-- Proper credit is given to the original author
+- Proper credit is given to the original author (github.com/myname)
 - This license file remains included and unchanged
 
 You may NOT:
