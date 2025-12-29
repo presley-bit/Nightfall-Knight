@@ -32,9 +32,10 @@ See LICENSE file for details.
         }
 
         .logo {
-            max-width: 300px;
-            width: 80%;
-            height: auto;
+            width: 250px;         /* square width */
+            height: 250px;        /* square height */
+            object-fit: cover;    /* fills square, crops if needed */
+            border-radius: 15px;  /* optional rounded corners */
             margin-bottom: 30px;
         }
 
@@ -77,3 +78,4 @@ See LICENSE file for details.
     <a class="github-link" href="https://github.com/presley-bit" target="_blank">Follow the progress on GitHub</a>
 </body>
 </html>
+
