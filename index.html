@@ -9,34 +9,71 @@ See LICENSE file for details.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nightfall Knight - Game in Development</title>
+    <title>Nightfall Knight - Coming Soon</title>
     <meta name="description" content="Nightfall Knight - A game currently in development. Stay tuned!">
     <style>
-        /* Basic professional styling */
+        /* Reset default margins */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            background-color: #1e1e1e;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
             color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
+            text-align: center;
             flex-direction: column;
         }
+
+        .logo {
+            max-width: 300px;
+            width: 80%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+
         h1 {
-            font-size: 3rem;
+            font-size: 2rem;
             color: #f39c12;
             margin-bottom: 20px;
+            animation: glow 2s ease-in-out infinite alternate;
         }
+
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px #f39c12, 0 0 20px #f39c12; }
+            100% { text-shadow: 0 0 20px #f1c40f, 0 0 30px #f1c40f; }
+        }
+
         p {
             font-size: 1.2rem;
+            margin-bottom: 20px;
             color: #cccccc;
+        }
+
+        a.github-link {
+            text-decoration: none;
+            color: #f39c12;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        a.github-link:hover {
+            color: #f1c40f;
         }
     </style>
 </head>
 <body>
+    <!-- Logo image from GitHub -->
+    <img class="logo" src="https://raw.githubusercontent.com/presley-bit/Nightfall-Knight/refs/heads/main/Nightfall_Knight.png" alt="Nightfall Knight Logo">
+
     <h1>Game in Development</h1>
     <p>Nightfall Knight is currently in development. Check back soon for updates!</p>
+    <a class="github-link" href="https://github.com/presley-bit" target="_blank">Follow the progress on GitHub</a>
 </body>
 </html>
