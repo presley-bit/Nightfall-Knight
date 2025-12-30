@@ -7,7 +7,7 @@ Permission is granted to view, study, and fork this repository on GitHub
 for personal and educational purposes only.
 
 Forking is permitted provided that:
-- Proper credit is given to the original author (github.com/myname)
+- Proper credit is given to the original author (github.com/presley-bit)
 - This license file remains included and unchanged
 
 You may NOT:
